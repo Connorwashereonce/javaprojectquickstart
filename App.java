@@ -55,7 +55,7 @@ class Player {
     private List<Card> hand;
     private int score;
     private String name;
-
+//constructor for player
     public Player(String name) {
         this.name = name;
         this.hand = new ArrayList<>();
