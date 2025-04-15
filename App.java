@@ -113,8 +113,8 @@ public class App {
                 player2.draw(deck);
             }
         }
-        // Play 25 rounds of the game.
-        for (int i = 0; i < 25; i++) {
+        // Play 26 rounds of the game.
+        for (int i = 0; i < 26; i++) {
             System.out.println("--- Round " + (i + 1) + " ---");
             // Each player flips a card.
             Card card1 = player1.flip();
